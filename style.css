@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.navbar-nav li .nav-link{
+    font-weight: 600;
+    color:#797d7f ;
+}
+.fa-solid {
+    color:#34495e ;
+}
+.navbar{
+    background-color: #FFFFFF;
+   
+}
+.btn .fa-regular{
+    color:#34495e;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+.navbar-nav li .subnav {
+    list-style: none;
+    color: #ffffff;
+    position: absolute;
+    width: 185px;
+    background-color: white;
+    box-shadow: 0 20px 45px #00000020;
+    margin-top: -75px;
+    opacity: 0;
+    z-index: -999;
+    transition: all ease 0.5s;
+}
+
+.navbar-nav li:hover .subnav {
+    z-index: 99;
+    opacity: 1;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.navbar-nav li .subnav a{
+    text-decoration: none;
+    color:#34495e;
+}
+
+.navbar-nav li .subnav a:hover{
+color: #F08080;
+}
+.btn i{
+    color: #FFFFFF;
+}
+h3{
+    color: #fdfefe;
+  opacity: 0.7;
+}
+.carousel-item img{
+opacity: 0.8;
+}
+.carousel-item .carousel-caption p{
+    font-size: xx-large;
+    color: #27ae60 ;
+}
+
+/* CARD CSS */
+.top-brands{
+    margin-top: 10px;
+text-align: center;
+font-family: 2rem;
+font-weight: 500;
+   padding: 25px;
+    color: #5d6d7e ;
+}
+.row .col{
+    margin-top: 20px;
+}
+.col .card{
+    padding: 20px;
+    border-radius: 8px;
+}
+.row .col{
+    text-align: center;
+    color:#4d5656 ;
+}
+
+/* feature deals css  */
+.deals{
+    margin-top: 10px;
+text-align: center;
+font-family: 2rem;
+font-weight: 500;
+   padding: 25px;
+    color: #5d6d7e ;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-container .card .row .col-md-4{
+    align-items: center;
+    text-align: center;
+}
+
+#col-4 h6{
+    padding: 8px;
+    color: #34495e;
+    font-weight: 500;
+}
+
+.col-md-8 .card-body .model{
+    color: #16a085;
+    font-size: medium;
+}
+.col-md-8 .card-body h5{
+    color:#6c3483;
+}
+.col-md-8 .card-body .card-text{
+    font-size: 12px;
+    color: #515a5a;
+}
+.col-md-8 .card-body h6{
+    color: #2e86c1 ;
+    padding: 8px;
+}
+
+/* FEAture deals section */
+
+.contact-container{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #17202a;
+}
+.contact-container h2{
+    padding: 10px;
+    font-weight: 500;
+   color: #f7f9f9;
+}
+.feedback{
+    font-size: medium;
+    margin: 30px;
+    padding: 20px;
+    color: #17202a ;
+}
+.row{
+    margin: 10px;
+    padding: 10px;
+}
+
+.text-white{
+    text-decoration: none;
+   
+}
